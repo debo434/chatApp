@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(rgb(225,225,225),rgb(34, 34, 51));  
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.container{
+    max-width: 450px;
+    background-color: rgb(36, 35, 34);
+    /*border: 2px solid blue;*/
+    border-radius: 12px;
+    margin: auto;
+    height: 80vh;
+    /*padding: 23px;*/
+    overflow-y: auto;
+}
+
+.message{
+    background-color: rgb(136, 165, 167);
+    width: 38%;
+    padding: 10px;
+    margin: 17px 12px;
+    /*border: 2px solid rgb(145, 78, 78);*/
+    border-radius: 11px;
+}
+.right{
+    background-color: palevioletred;
+    color: whitesmoke;
+    float: right;
+    clear: both;
+}
+.left{
+    background-color: blue;
+    color: whitesmoke;
+    float: left;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+}
+
+#messageInp{
+    width: 85%;
+    border: 2px solid black;
+    border-radius: 9px;
+    height: 34px;
+    margin-top: 13px;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    border: 2px solid brown;
+}
